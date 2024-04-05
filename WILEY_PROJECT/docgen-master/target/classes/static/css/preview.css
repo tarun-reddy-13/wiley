@@ -1,0 +1,38 @@
+/*
+
+.preview-container {
+    padding: 20px;
+    margin-top: 40px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.preview-container p {
+    margin: 0; */
+/* Remove default margins for paragraphs *//*
+
+}
+
+.preview-container strong {
+    font-weight: bold;
+}
+
+.preview-container span {
+    color: #000; */
+/* Default color for text *//*
+
+}
+
+.preview-container span:first-child {
+    color: #115C36; */
+/* Color for specific spans *//*
+
+}
+
+.preview-container hr {
+    border-top: 2px solid #115C36;
+    width: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*/

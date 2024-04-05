@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Generation Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h2>Document Generation Form</h2>
+<form action="/generateDocx" method="post">
+    <label for="email">Email Address:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+
+    <label for="phoneNumber">Mobile No:</label><br>
+    <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
+
+    <label for="name">Candidate Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="incoming">Incoming Wiley Edge Alumni:</label><br>
+    <textarea id="incoming" name="incoming"></textarea><br><br>
+
+    <label for="summary">Personal Summary:</label><br>
+    <textarea id="summary" name="summary"></textarea><br><br>
+
+    <label for="skills">Skills:</label><br>
+    <textarea id="skills" name="skills"></textarea><br><br>
+
+    <label for="languages">Languages:</label><br>
+    <textarea id="languages" name="languages"></textarea><br><br>
+
+    <label for="technologies">Technologies & Tools:</label><br>
+    <textarea id="technologies" name="technologies"></textarea><br><br>
+
+    <label for="education">Education:</label><br>
+    <textarea id="education" name="education"></textarea><br><br>
+
+    <label for="experience">Experience:</label><br>
+    <textarea id="experience" name="experience"></textarea><br><br>
+
+    <label for="software_engineer">Software Engineer:</label><br>
+    <textarea id="software_engineer" name="software_engineer"></textarea><br><br>
+
+    <label for="internship">Internship:</label><br>
+    <textarea id="internship" name="internship"></textarea><br><br>
+
+    <label for="final_year_project">Final year Project:</label><br>
+    <textarea id="final_year_project" name="final_year_project"></textarea><br><br>
+
+    <label for="personal_project">Personal Project:</label><br>
+    <textarea id="personal_project" name="personal_project"></textarea><br><br>
+
+    <label for="additional_info">Additional Information:</label><br>
+    <textarea id="additional_info" name="additional_info"></textarea><br><br>
+
+    <label for="achievements">Achievements:</label><br>
+    <textarea id="achievements" name="achievements"></textarea><br><br>
+
+    <input type="submit" value="Generate Document">
+</form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* Custom CSS for preview content */
+#preview_content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 35%;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
+}
+
+/* Custom CSS for professional information */
+.professional-info {
+    margin-top: 20px;
+}
+
+.required::after {
+    content: '*';
+    color: red;
+}
+
+/* Improved Form Field Styling */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Inline Error Messages */
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Spacing between form fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
